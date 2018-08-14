@@ -36,8 +36,9 @@ end
 
 def winner(board)
   if won?(board)
-    returns
-
+    returns "X" when "X" won
+  elseif
+    returns "O" when "O" won
   else
     nil
   end
